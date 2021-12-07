@@ -1,0 +1,46 @@
+#container{
+    width: 400px;
+    background-color: aliceblue;
+    padding: 20px;
+}
+input{
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+ul,li{
+    margin: 0;
+    padding:0;
+    list-style-type: none;
+}
+.list{
+    margin: 15px 0;
+}
+.list > li{
+    background-color: antiquewhite;
+    padding: 5px;
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    margin-top: 5px;
+}
+button{
+    cursor: pointer;
+    border: none;
+    margin-top: 5px;
+    background-color: black;
+    color: beige;
+    padding: 5px 10px;
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+button:hover{
+    background-color: beige;
+    color: black;
+}
